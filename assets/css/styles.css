@@ -1,21 +1,168 @@
 table {
     width: 100%;
-    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 td {
-    width: 100px;
+    text-align: center;
     vertical-align: middle;
 }
 
-td img {
-    width: 100px;
-    height: 100px;
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .header-text {
-    text-align: center;
     color: red;
     font-family: 'Impact', sans-serif;
-    font-size: 1,8em; /* Ukuran font sebesar 2em untuk size=+3 */
+    font-size: 2em;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.header-text span {
+    display: block;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.table {
+    margin-top: 20px; /* Jarak antara tabel pertama dan konten berikutnya */
+}
+
+.left, .right {
+    color: red;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 0.875em;
+}
+
+.center {
+    color: #2597f7;
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: center;
+    color: red;
+}
+td {
+    text-align: center;
+}
+
+.menu a {
+    color: rgb(36, 33, 33); /* Mengganti red(36, 33, 33) dengan rgb(36, 33, 33) */
+    text-decoration: none; /* Menghilangkan garis bawah default dari tautan */
+    margin: 0 12px;/* Menambahkan margin kiri dan kanan untuk jarak antar tautan */
+    border-bottom: 2px solid rgb(36, 33, 33); /* Menambahkan garis bawah dengan warna default */
+    padding-bottom: 5px; /* Menambahkan padding bawah agar garis bawah tidak terlalu dekat dengan teks */
+}
+.content {
+    background-color: #2597f7; /* Warna latar belakang untuk kontainer */
+    margin-top: 20px; /* Menambahkan margin atas */
+    padding: 20px; /* Memperbarui padding jika diperlukan */
+}
+.content h1 {
+    font-family: Impact, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #2597f7; /* Warna latar belakang untuk kontainer */
+}
+
+.content p {
+    font-size: 1em;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content a {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: auto;
+}
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 40px; 
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: row;
+  }
+  
+  .info-box {
+    width: calc(30% - 20px); /* 33.33% untuk setiap box dan dikurangi 20px gap */
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px; /* Tambahkan margin bottom untuk memberi jarak antara box */
+    border: 2px solid blue;
+  }
+  
+  .info-box h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .info-box ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info-box ul li {
+    margin-bottom: 10px;
+  }
+  
+  .info-box ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .info-box ul li a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.centered-text {
+    display: flex;
+    justify-content: center; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+    text-align: center; /* Center-align the text within the cell */
+    height: 50%; /* Ensure the td takes the full height of the parent row */
+    color: white; /* Optional: Text color for better visibility */
+    font-family:  'Arial Narrow',sans-serif;
 }
