@@ -116,7 +116,7 @@ td {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 30px; /* Tambahkan margin bottom untuk memberi jarak antara box */
-    border: 2px solid blue;
+    border: 2px solid rgb(255, 255, 255);
   }
   
   .info-box h2 {
