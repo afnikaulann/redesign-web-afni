@@ -3,6 +3,8 @@
 # Gambar Before (Header)
 ![Gambar](https://github.com/afnikaulann/redesign-web-afni/blob/main/assets/img/Before/Before%20(header).png)
 
+#### Yang pertama saya ubah adalah pada bagian header disini bisa dilihat dari web sebelumnya headernya itu tidak full layar dan ada iklan diatasnya,saya hilangkan iklannya karena tidak penting dan tampilan headernya saya kasih ditengah seperti judul dan logonya saya rata kanan kirikan
+
 # Gambar After (Header)
 ![Gambar](https://github.com/afnikaulann/redesign-web-afni/blob/main/assets/img/After/After%20(Header).png)
 
